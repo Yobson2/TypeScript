@@ -1,0 +1,19 @@
+//  Ce fichier contient des informations pour compiler le projet
+ // files contient fichiers qui doit changer en js
+ // le dossier Dist contient le code js qui sera compiler
+ // target choisir la version des navigateur
+ // noEmitOnError à true permet de ne pas compiler mon code en cas d'erreur
+ // en mode strict, je dois typé tout les parametres de mes fonctions
+{
+    "compilerOptions": {
+        "outDir": "Dist",
+        "target": "ES2022",
+        "noEmitOnError": true,
+        "strict": true,
+        "noUncheckedIndexedAccess": true
+    },
+   
+    "files": [
+      "src/app.ts",
+    ]
+  }
